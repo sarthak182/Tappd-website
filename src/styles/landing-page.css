@@ -1,0 +1,97 @@
+.tappd-landing-page-heading-cont{
+  margin-top:-4rem;
+}
+
+.First-image, .Second-image, .Third-image {
+  transition: transform 0.3s ease;
+}
+
+.First-image {
+  position: absolute;
+  top:10vw;
+  left:60vw;
+  z-index: 2;
+  transform: scale(0.85);
+}
+
+.Second-image {
+  position: absolute;
+  top:26vw;
+  left:45vw;
+  z-index: 1;
+  transform: scale(0.85);
+}
+
+.Third-image {
+  position: absolute;
+  top:37vw;
+  left:61vw;
+  z-index:3;
+  transform: scale(0.85);
+}
+
+.First-image:hover, .Second-image:hover, .Third-image:hover {
+  transform: scale(0.85) rotate(5deg);
+}
+
+
+.tappd-landing-page-heading{
+  margin-left:9vw;
+  margin-top:10.2vw;
+  font-size:5.2rem;
+  font-weight: bold;
+}
+
+.tappd-landing-page-subtext{
+  margin-top:-3.5vw;
+  margin-left:9vw;
+  font-size:1.2rem;
+  font-weight: 200;
+}
+
+.tappd-landing-page-subtext p{
+  color:#fefeef;
+  font-weight: 200;
+}
+
+.reviews{
+  display:flex;
+  gap:4vw;
+  margin-top:2vw;
+  margin-left:9vw;
+}
+
+.tappd-landing-page-buttons-section{
+  display:flex;
+  gap:2.75vw;
+  margin-left: 9vw;
+  margin-top: 4vw;
+  margin-bottom:4vw;
+}
+
+.waitlist-btn{
+    background-color: #f2f862;
+    color:black;
+    border:none;
+    font-weight:550;
+    font-size: 1rem;
+    font-family: 'Urbanist', sans-serif;
+    padding-top:12px;
+    padding-bottom:12px;
+    padding-left:24px;
+    padding-right:24px;
+    border-radius:8px;
+}
+
+.explore-btn{
+  background:transparent;
+  border-radius: 8px;
+  font-family: 'Urbanist', sans-serif;
+  color:white;
+  border:1px solid white;
+  font-size:1rem;
+  padding-left:32px;
+  padding-right: 32px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}

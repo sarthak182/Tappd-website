@@ -1,0 +1,106 @@
+.download-bands-image{
+    width: 40vw;
+    height: auto;
+}
+
+.download-page-wrapper{
+    margin-top: 6rem;
+    margin-right:2.4rem;
+    margin-left:2.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.download-page-button{
+  background-color: #f2f862;
+  border:none;
+  width:fit-content;
+  height: fit-content;
+  border-radius: 4.5rem;
+  padding:0.75rem 1.5rem;
+  font-size: 0.86rem;
+  font-family: 'Urbanist', sans-serif;
+  font-weight:300;
+}
+
+.download-page-heading{
+    font-weight: 700;
+    font-size: 5rem;
+}
+.download-page-subheading{
+    margin-top: 1rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.download-page-subtext{
+    margin-top: 1rem;
+    font-size:0.9rem;
+    justify-content: center;
+    word-spacing: 1px;
+    line-height: 1.2rem;
+}
+
+.download-page-sections{
+    display: flex;
+}
+
+.download-page-heading-underline{
+    width:52vw;
+    margin-top:-4.9rem;
+    margin-left: 0.78rem;
+    height: auto;
+}
+
+.download-page-heading-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -3rem;
+    margin-bottom: 3rem;
+}
+
+.download-page-joinnow-image{
+    margin-top:2rem;
+    width:32.5vw;
+    height: auto;
+}
+
+.download-page-email-input{
+    background: none;
+    color:#404040;
+    border: none;
+    padding: 1rem;
+     flex: 1;                /* add this to make input take available width */         /* keep your existing padding */
+    box-sizing: border-box; /* ensure padding doesn't break width */
+}
+
+.download-now-image{
+    margin-top: 4rem;
+    height:auto;
+    width:98vw;
+}
+
+.download-page-email-wrapper{
+    background-color: #161616;
+    border: 1px solid #404040;
+    border-radius: 10px;
+    width:30vw;
+    display: flex;          /* add this */
+    align-items: center;    /* vertically center input and button */
+    gap: 0.5rem;            /* optional spacing between input and button */
+}
+
+.download-page-email-button{
+  background-color: #f2f862;
+  border:none;
+  width:fit-content;
+  height: fit-content;
+  border-radius: 10px;
+  padding:0.75rem 1.5rem;
+  font-size: 0.875rem;
+  font-weight: 200;
+  margin-left: 2.37rem;
+}

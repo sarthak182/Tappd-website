@@ -1,0 +1,89 @@
+.hero-page-how-it-works-cont{
+    background-color: #f2f862;
+    color:black;
+    border: none;
+    border-radius: 50px;
+    padding-top:12px;
+    padding-bottom:12px;
+    padding-left:24px;
+    padding-right:24px;
+    font-size: 0.85rem;
+}
+
+.hero-page-heading-reverse{
+    margin-left:6rem;
+    font-weight: bold;
+    font-size:2.6rem;
+}
+
+.hero-page-wrapper{
+    margin-top: 20rem;
+    margin-left: 120px;
+    margin-right:120px;
+}
+
+.hero-page-step-number-heading{
+    font-size:7rem;
+    color:#f2f862;
+    font-weight:bold;
+    margin-top: 5px;
+    margin-bottom:-1.4rem;
+}
+
+.hero-page-heading{
+    font-size: 3.6rem;
+    font-weight: bold;
+    word-spacing: -2px;
+}
+
+.hero-steps-container {
+  display: flex;
+  flex-direction: column;
+  gap: 6.5rem;
+  margin: 6rem 0;
+}
+
+.hero-step {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.hero-step.reverse {
+  flex-direction: row-reverse;
+}
+
+.hero-step-text {
+  flex: 1;
+  margin-top:-5.5rem;
+}
+
+.hero-step-text-reverse{
+    margin-top:-5.5rem;
+    margin-left: 5rem;
+}
+
+.hero-step-title {
+  font-size: 2.6rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.hero-step-subtext {
+  font-size: 0.85rem;
+  font-weight: 300;
+}
+
+.hero-step-image {
+  flex: 1;
+}
+
+.hero-step-image img {
+  width: 100%;
+  height: auto;
+}
+
+.rounded-img {
+  max-width: 500px;
+  border-radius: 12px;
+}

@@ -1,15 +1,19 @@
-import logo from './logo.svg';
-import nextevent from './images/nextevent.png';
 import './App.css';
+import Footer from './components/footer';
+import NavbarComponent from './components/navbar';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Integrated from './pages/integrated';
 
 function App() {
   return (
     <div className="App">
-      {/* <button className="notify">Notify Me</button> */}
-      <button className="kdj">Notify Me</button>
-      <h1 className="first-heading">Connect</h1>
-      <h1 className="second-heading">through</h1>
-      <h1 className="third heading">experiences</h1>
+    <NavbarComponent/>
+    <Router>
+    <Routes>
+      <Route path="/" element={<Integrated />} />
+    </Routes>
+    </Router>
+    <Footer/>
     </div>
   );
 }

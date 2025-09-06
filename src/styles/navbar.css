@@ -1,0 +1,33 @@
+.navbar-wrapper{
+    margin-left: 1rem;
+    margin-right:1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.navbar-buttons{
+    background:none;
+    font-size: 0.92rem;
+    color:white;
+    font-family: 'Urbanist', sans-serif;
+    border: none;
+}
+
+.navbar-bar{
+    display:flex;
+    gap:40px;
+    margin-left: 3rem;
+}
+.waitlist-btn{
+    background-color: #f2f862;
+    color:black;
+    border:none;
+    font-family: 'Urbanist', sans-serif;;
+    font-weight:600;
+    font-size: 0.7rem;;
+    border-radius:8px;
+}
+.navbar-tappd-logo{
+    width:6vw;
+    height: auto;
+}

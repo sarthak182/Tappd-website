@@ -1,0 +1,97 @@
+.tappd-features-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+ }
+
+ .tappd-features-wrapper{
+  margin-left: 2.4rem;
+  margin-right:2.4rem;
+ }
+
+.tappd-features-button{
+  background-color: #f2f862;
+  border:none;
+  width:fit-content;
+  height: fit-content;
+  border-radius: 4.5rem;
+  padding:0.75rem 1.5rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  font-family: 'Urbanist', sans-serif;
+}
+.tappd-features {
+  display: flex;
+  margin-top:0.65rem;
+  flex-direction: column;
+  gap: 2.4rem;
+  padding: 3rem;
+  background:transparent;
+}
+
+.tappd-features-heading{
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+.tappd-features-subtext{
+  font-size: 0.85rem;
+  word-spacing: 0.025rem;
+  font-weight:200;
+  color:#fefeef;
+}
+
+.tappd-features-section-heading{
+  font-weight: bold;
+    word-spacing: 0.025rem;
+  font-size: 1.2rem;
+}
+
+.tappd-features-upper-section,
+.tappd-features-lower-section {
+  justify-content: center;
+  display: flex;
+  gap: 2.2rem;
+}
+
+.tappd-features-upper-section-first-cont,.tappd-features-lower-section-second-cont  {
+  flex: 0 0 40%;
+  border:1.3px solid #404040;
+  background-color: #161616;
+}
+
+.tappd-features-upper-section-second-cont, .tappd-features-lower-section-first-cont {
+  flex: 0 0 50%;
+  border:1px solid #404040;
+}
+
+.tappd-features-upper-section-first-cont,
+.tappd-features-upper-section-second-cont,
+.tappd-features-lower-section-first-cont,
+.tappd-features-lower-section-second-cont {
+  background: #1a1a1a;
+  padding-top:1.2rem;
+  padding-left:1.5rem;
+  padding-bottom:0.6rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+@media (max-width: 900px) {
+  .tappd-features-upper-section,
+  .tappd-features-lower-section {
+    flex-direction: column;
+  }
+
+  .tappd-features-upper-section-first-cont,
+  .tappd-features-upper-section-second-cont,
+  .tappd-features-lower-section-first-cont,
+  .tappd-features-lower-section-second-cont {
+    flex: 1 1 100%;
+  }
+}
+
